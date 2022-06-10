@@ -15,7 +15,7 @@ function extendWithComponent (conf) {
 }
 
 module.exports = function (api) {
-  api.compatibleWith('@quasar/app', '^2.0.0')
+  api.compatibleWith("@quasar/app", "^1.3.0 || ^2.0.0 || ^3.2.3");
 
   // register JSON api
   api.registerDescribeApi('QSwipeToClose', './components/QSwipeToClose.json')
